@@ -158,7 +158,7 @@ const FeaturedCollections = () => {
                 whileHover={{
                   y: -8,
                 }}
-                className="group min-w-[320px]"
+                className="group min-w-[240px] md:min-w-[340px]"
               >
 
                 <Link to={`/collections/${item.slug}`}>
@@ -171,7 +171,7 @@ const FeaturedCollections = () => {
                     <img
                       src={item.image}
                       alt={item.title}
-                      className="h-[450px] w-full object-cover group-hover:scale-105 transition duration-700"
+                      className="h-[300px] md:h-[420px] w-full object-cover group-hover:scale-105 transition duration-700"
                     />
 
                   </div>
@@ -179,7 +179,7 @@ const FeaturedCollections = () => {
                   {/* CONTENT */}
                   <div className="flex items-center justify-between gap-6">
 
-                    <h3 className="text-3xl font-semibold whitespace-nowrap">
+                    <h3 className="text-2xl md:text-3xl font-semibold whitespace-nowrap">
                       {item.title}
                     </h3>
 
