@@ -113,7 +113,7 @@ const ProductDetail = () => {
                   whileTap={{
                     scale: 0.98,
                   }}
-href={`https://wa.me/917877253802?text=${encodeURIComponent(
+href={`https://wa.me/917849828496?text=${encodeURIComponent(
 `✨ Joshi's Silver Inquiry ✨
 
 Product: ${product.title}
